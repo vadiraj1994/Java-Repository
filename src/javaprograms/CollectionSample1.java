@@ -21,13 +21,8 @@ public class CollectionSample1
 		for (int i = 0; i < list.size(); i++)
 		{
 			String fullName=list.get(i);
-
-		//	System.out.println( fullName);
-			
 			String[] firstName1 = fullName.split(",");
-		//	System.out.println( firstName1);
 			String[] firstName2= firstName1[0].split(" ");
-		//	System.out.println( firstName2);
 			lastnames.add(firstName2[firstName2.length-1]);
 		}
 		return lastnames;

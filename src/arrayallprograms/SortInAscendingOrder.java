@@ -15,12 +15,14 @@ public class SortInAscendingOrder
 					a[j]=temp;
 				}
 			}
-		}
-		for (int i=0; i<a.length;i++)
-		{
-
 			System.out.print(a[i]+" ");
 		}
+//		for (int i=0; i<a.length;i++)
+//		{
+//
+//			System.out.print(a[i]+" ");
+//		}
+//		
 	}
 
 
